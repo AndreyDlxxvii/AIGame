@@ -5,7 +5,7 @@ namespace AIGame
 {
     public class FightWindowController : IController, IOnStart, IDisposable
     {
-        private FgihtWindowView _fightWindowView;
+        private FightWindowView _fightWindowView;
         
         private int _allCountMoneyPlayer;
         private int _allCountHealthPlayer;
@@ -18,7 +18,7 @@ namespace AIGame
         private Enemy _enemy;
         private int _enemyPower;
         
-        public FightWindowController(FgihtWindowView fightView)
+        public FightWindowController(FightWindowView fightView)
         {
             _fightWindowView = fightView;
         }

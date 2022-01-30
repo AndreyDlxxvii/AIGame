@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 namespace AIGame
 {
-    public class FgihtWindowView : MonoBehaviour
+    public class FightWindowView : MonoBehaviour
     {
         public TMP_Text CountMoneyText => _countMoneyText;
 
